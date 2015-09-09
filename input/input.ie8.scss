@@ -1,0 +1,28 @@
+@import '../constants/constants';
+
+.input
+{
+    &__placeholder,
+    {
+        color: $greyAluminum;
+    }
+
+    &__control
+    {
+        border-bottom: 1px solid #dbdbdb;
+        background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+    }
+
+    &_disabled
+    {
+        .input__control
+        {
+            border-bottom: 1px solid $lightGrey;
+        }
+
+        .input__placeholder
+        {
+            color: $lightGrey;
+        }
+    }
+}
